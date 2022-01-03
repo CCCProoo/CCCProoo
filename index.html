@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+	<main>
+		<div class="container first">
+			<p class="title">САЙТ ПРО СССР</p>
+			<div class="text-container">
+				<p class="first-line">Брат брату брат</p>
+				<p class="second-line">ТАК РАБОТАЛ, ТАК И ЗАРАБОТАЛ!</p>
+				<p class="third-line">Растрелять</p>
+			</div>
+				</div>
+				<div class="box1">
+  								<form action="" method="post" class="search">
+	<input type="search" name="" placeholder="поиск" class="input" />
+	<input type="submit" name="" value="" class="submit" />
+</form>
+								<div class="mainmenu">
+
+					<nav>
+					<ul>
+			
+					<li><a href="https://cccproo.github.io/indexRU">ГЛАВНАЯ</a></li>
+					<li><a href="https://cccproo.github.io/respussrRU.html">РЕСПУБЛИКИ </a></li>
+					<li><a href="https://cccproo.github.io/gumnsccrRU.html">ГИМН </a></li>
+					<li><a style="text-align: center;" href="https://cccproo.github.io/usssrRU.html">ВАЛЮТЫ </a></li>
+					<li><a href="dostpRU.html">Достопремечательности</a></li>
+						<ul>
+							
+						
+						</ul>
+
+				</ul>
+				</nav>
+				</div>
+				
+<body contenteditable="false">
+
+<br>
+<h2 style="text-align:center" _msthash="563043" _msttexthash="3010748">Популярные посты</h2>
+
+<div class="container">
+  <div class="mySlides" style="display: none;">
+    <div class="numbertext" _msthash="1146340" _msttexthash="15665" >1 / 6</div>
+    <img  src="img/img2.jpg" style="width: 50%" >
+  </div>
+
+  <div class="mySlides" style="display: none;" _mstvisible="0">
+    <div class="numbertext" _msthash="1146561" _msttexthash="15756" _mstvisible="1">2 / 6</div>
+    <img src="img/img3.jfif" style="width:50%" _mstvisible="1">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)" _msthash="766298" _msttexthash="918554">❮</a>
+  <a class="next" onclick="plusSlides(1)" _msthash="766415" _msttexthash="918645">❯</a>
+
+  <div class="caption-container">
+    <p class="caption" id="caption" _msthash="98202" _msttexthash="1860391">Снежные горы</p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/img2.jpg" style="width:248px" height="139px" onclick="currentSlide(1)" alt="Расспад СССР" _mstalt="335062">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/img3.jfif" style="width:100%" onclick="currentSlide(2)" alt="Выигрышь 2 мировой" _mstalt="1927198">
+    </div>
+    </div>
+    <br>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+
+
+
+
+
+</body>
+				</div>
+	</main>
+</body>
+</html>
