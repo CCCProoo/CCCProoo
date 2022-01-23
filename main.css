@@ -371,12 +371,7 @@ h1{
 	margin: flex;
 	}
 
-.divvv{
-	width: 1900px;
-	background-color: #ccdee9;
-	border: 2px solid #ff4040;
-	margin: flex;
-}
+
 
 .text6{
 		color: red;
@@ -455,3 +450,39 @@ h1{
 	margin: flex;
 }
 
+
+body {
+  color: #222;
+  background: #fff;
+}
+a {
+  color: #0033cc;
+}
+
+/* Стили Тёмной темы */
+body.dark-theme {
+  color: #eee;
+  background: #121212;
+}
+body.dark-theme a {
+  color: #809fff;
+}
+body.dark-theme .text6 {
+  background-color: #373535;
+}
+body.dark-theme .text3 {
+  background-color: #373535;
+}
+body.dark-theme .divvv {
+  background-color: #393939;
+}
+
+
+
+
+.divvv{
+	width: 1900px;
+	background: #ccdee9;
+	border: 2px solid #ff4040;
+	margin: flex;
+}

@@ -14,9 +14,9 @@
 		<div class="container first">
 			<p class="title">СССР</p>
 			<div class="text-container">
-				<p class="first-line">Кто не работает, тот не ест</p>
-				<p class="second-line">ТАК РАБОТАЛ, ТАК И ЗАРАБОТАЛ!</p>
-				<p class="third-line">Нам песня строить, и жить помогает</p>
+				<marquee  class="first-line">Кто не работает, тот не ест</marquee>
+			  <marquee  class="second-line">ТАК РАБОТАЛ, ТАК И ЗАРАБОТАЛ!</marquee>
+				<marquee  class="third-line">Нам песня строить, и жить помогает</marquee>
 			</div>
 				</div>
 				<div class="box1">
@@ -34,6 +34,7 @@
 					<li><a href="https://cccproo.github.io/gumnsccrRU.html">ГИМН </a></li>
 					<li><a style="text-align: center;" href="https://cccproo.github.io/usssrRU.html">ВАЛЮТЫ </a></li>
 					<li><a href="dostpRU.html">Достопремечательности</a></li>
+          <li><a class="btn-toggle" style="right: 10px">Переключатель тёмной темы</a>
 						<ul>
 							
 						
@@ -45,7 +46,7 @@
 				
 <body contenteditable="false">
 
-<br>s
+<br>
 <h2 style="text-align:center" _msthash="563043" _msttexthash="3010748">Популярные посты</h2>
 
 <div class="container">
@@ -108,14 +109,15 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
-    
 
-
-
-
-
+<script>
+  // Выбираем кнопку
+const btn = document.querySelector(".btn-toggle");
+// Отслеживаем щелчок по кнопке
+btn.addEventListener("click", function () {
+  // Затем переключаем (добавляем/удаляем) класс .dark-theme для body
+  document.body.classList.toggle("dark-theme");
+});
+</script>
 </body>
 				
-	</main>
-</body>
-</html>
