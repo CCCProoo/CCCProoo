@@ -479,6 +479,16 @@ body.dark-theme .divvv {
   background-color: #393939;
 }
 
+body.dark-theme .container first{
+	background-image: https://i02.fotocdn.net/s122/b821e5cedf4db240/public_pin_l/2783541414.jpg ;
+	height: 70%;
+        background-size: cover;
+        width: 2000px;
+        margin: flex;
+        margin: auto;
+        -webkit-background-size: cover;
+        font-family: 'Pacifico', cursive;
+}
 
 
 
